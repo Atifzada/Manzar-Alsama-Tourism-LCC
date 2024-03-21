@@ -30,7 +30,7 @@ const Hero = () => {
     <section className='relative bg-hero bg-cover bg-center bg-no-repeat h-[100vh] w-full z-10 pb-12'>
       <div className='max-container padding-container relative top-28 sm:top-1/3 z-10'>
         <h1 className='bold-64 sm:bold-64 text-white capitalize max-w-[36rem]'>Explore Dubai With Us</h1>
-        <p className='regular-16 text-white lg:w-1/2'>Welcome to <span className="text-4xl font-bold text-yellow-500">MANZAR ALSAMAA</span>, Your Gateway to Extraordinary Journeys in Dubai! Embark on unforgettable adventures, discover hidden gems, and immerse yourself in the vibrant culture of the City of Gold. Let us be your compass as you explore the wonders of Dubai with expert guidance and personalized experiences. Start your journey with us today!
+        <p className='regular-16 text-white lg:w-1/2'>Welcome to <span className="text-4xl font-bold text-black">MANZAR ALSAMAA</span>, Your Gateway to Extraordinary Journeys in Dubai! Embark on unforgettable adventures, discover hidden gems, and immerse yourself in the vibrant culture of the City of Gold. Let us be your compass as you explore the wonders of Dubai with expert guidance and personalized experiences. Start your journey with us today!
         </p>
         <div className='mt-8'>
           <Button

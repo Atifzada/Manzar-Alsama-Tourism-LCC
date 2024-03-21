@@ -23,7 +23,7 @@ body{
         @apply bg-white px-8 py-4 text-gray-900
     }
     .btn_light_rounded {
-        @apply border-slate-10 bg-slate-10 px-8 py-4 text-gray-900;
+        @apply border-slate-100 bg-slate-100 px-8 py-4 text-gray-900;
     }
     .btn-dark-rounded {
         @apply border-green-100 bg-green-100 px-8 py-4 text-white transition-all hover:bg-black;
@@ -32,11 +32,18 @@ body{
         @apply border-green-50 bg-green-50 px-8 py-5 text-white;
     }
     .max-container {
-        @apply mx-auto max-w-[1440px];
+        @apply mx-auto max-w-[1580px];
     } 
+    /* .max-container {
+        @apply mx-auto max-w-[1440px];
+    }  */
 
-    .padding-container {
+    /* .padding-container {
         @apply px-6 lg:px-20 3xl:px-0;
+    }  */
+    
+    .padding-container {
+        @apply px-6 lg:px-40 3xl:px-0;
     } 
     
     .flexCenter {

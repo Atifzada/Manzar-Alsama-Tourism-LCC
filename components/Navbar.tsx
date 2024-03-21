@@ -10,7 +10,7 @@ const Navbar = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const togglMenu = () => setMenuOpened(!menuOpened);
   return (
-    <nav className='flexBetween max-container mt-2 px-12 z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]'>
+    <nav className='flexBetween max-container mt-3 px-12 z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]'>
       <Link href='/'>
         <span className='bold-28'>LOGO</span>
       </Link>
