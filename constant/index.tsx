@@ -81,3 +81,42 @@ export const FEATURE = [
     },
 
 ];
+
+// ABOUT Section
+export const ABOUT = [
+    {
+        title: 'Confortable Journey',
+        icon: '/checkbox.svg',
+    },
+    {
+        title: 'Luxuaries Hotels',
+        icon: '/checkbox.svg',
+    },
+    {
+        title: 'Travel Guide',
+        icon: '/checkbox.svg',
+    },
+    {
+        title: 'Papular Destionation',
+        icon: '/checkbox.svg',
+    },
+]
+// Vehicles
+export const VEHICLES = [
+    {
+        title: 'High Roofs',
+        icon: '/checkbox.svg',
+    },
+    {
+        title: 'Sports Utility Vehicle',
+        icon: '/checkbox.svg',
+    },
+    {
+        title: ' Land Cruisers',
+        icon: '/checkbox.svg',
+    },
+    {
+        title: 'Personal & Group tours',
+        icon: '/checkbox.svg',
+    },
+]

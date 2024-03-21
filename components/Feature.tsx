@@ -68,7 +68,7 @@ const Feature = () => {
   return (
     <section className="max-container padding-container bg-slate-100 py-12">
       <div className="m-auto w-[90%]">
-        <h3 className="bold-32 text-center">Featured Destinations</h3>
+        <h3 className="bold-52 capitalize pb-4 text-center">Featured Destinations</h3>
         <p className="mt-4">
           Explore the enchanting allure of Dubai's iconic landmarks and hidden
           gems. From the towering heights of Burj Khalifa to the pristine
