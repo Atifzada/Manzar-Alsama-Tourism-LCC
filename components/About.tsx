@@ -53,7 +53,7 @@ const About = () => {
 
       {/* Second container */}
 
-      <div className='flex flex-col gap-8 lg:flex-row pb-24'>
+      <div className='flex flex-col gap-8 lg:flex-row'>
         {/* LEFT */}
         <div className='flex flex-1 flex-col items-start justify-center lg:order-2'>
           <h1 className='bold-52 capitalize pb-4'>Explore Our Fleet</h1>
@@ -65,10 +65,8 @@ const About = () => {
           <p className='text-gray-500'>Experience the allure of travel in our fleet of premium 7-seater SUVs,With over 15 luxurious options to choose from, these vehicles play a pivotal role in enhancing your journey through the landscapes of the tourism industry. Explore destinations with comfort, style, and convenience, ensuring every adventure is both memorable and seamless..
           </p>
           <br />
-          {/* <p className='text-gray-500'> These companies play a crucial role in facilitating
-            and organizing travel experiences for people who want to explore new
-            destinations, whether it's for leisure, business, adventure, or cultural
-            enrichment.</p> */}
+          <p className='text-gray-500'> With 5 Land Cruisers and 7 Nissan Petrol MANZAR AL
+SAMAA have a Significant role in Tourism Industry</p>
           <div className='flex flex-wrap mt-8'>
             {VEHICLES.map((vehicle) =>
               <VehicleItem

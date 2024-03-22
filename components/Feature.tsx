@@ -66,10 +66,10 @@ const Feature = () => {
     ]
   };
   return (
-    <section className="max-container padding-container bg-slate-100 py-12">
+    <section className="max-container padding-container bg-slate-100 py-24">
       <div className="m-auto w-[90%]">
         <h3 className="bold-52 capitalize pb-4 text-center">Featured Destinations</h3>
-        <p className="mt-4">
+        <p className="mt-4 text-center">
           Explore the enchanting allure of Dubai's iconic landmarks and hidden
           gems. From the towering heights of Burj Khalifa to the pristine
           beaches of Jumeirah, our curated selection of featured destinations
@@ -114,12 +114,12 @@ const FeatureItem = ({ title, URL, des }: FeatureItem) => {
           width={510}
           className="hover:scale-105 hover:rotate-2 transition-all duration-700"
         />
-        <Link
+        {/* <Link
           href="/"
           className="absolute top-1/2 left-1/2 h-14 w-14 bg-white flexCenter rounded-full -translate-x-1/2 -translate-y-1/2 group-hover: scale-100 transition-all duration-500"
         >
           <RiSearchLine />
-        </Link>
+        </Link> */}
       </div>
       <div className="px-5 py-3 bg-white">
         <div className="capitalize text-[17px] font-[500]">{title}</div>

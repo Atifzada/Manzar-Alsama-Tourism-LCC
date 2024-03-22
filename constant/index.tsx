@@ -120,3 +120,125 @@ export const VEHICLES = [
         icon: '/checkbox.svg',
     },
 ]
+
+// PACKAGES
+
+export const PACKAGES7 = [
+    
+    {
+        title: "Full Day Dubai",
+        price: "475 AED",
+        URL: "/pkg1-dubai-1.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Full Day Sharjah",
+        price: "500 AED",
+        URL: "/pkg1-sharjah.jpeg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Half Day Dubai",
+        price: "350 AED",
+        URL: "/pkg-dubai01.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "05 Hrs"
+    },
+    
+    {
+        title: "Half Day Sharjah",
+        price: "330 AED",
+        URL: "/pkg-sharjah002.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "05 Hrs"
+    },
+    
+    {
+        title: "Full Day AUH",
+        price: "575 AED",
+        URL: "/pkg-auh.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Full Day RAK",
+        price: "575 AED",
+        URL: "/pkg-rak.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Full Day Fujairah",
+        price: "675 AED",
+        URL: "/pkg-alfuj.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+
+]
+
+export const PACKAGES15 = [
+    
+    {
+        title: "Full Day Dubai",
+        price: "600 AED",
+        URL: "/pkg1-dubai-1.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Full Day Sharjah",
+        price: "650 AED",
+        URL: "/pkg1-sharjah.jpeg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Half Day Dubai",
+        price: "400 AED",
+        URL: "/pkg-dubai01.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "05 Hrs"
+    },
+    
+    {
+        title: "Half Day Sharjah",
+        price: "400 AED",
+        URL: "/pkg-sharjah002.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "05 Hrs"
+    },
+    
+    {
+        title: "Full Day AUH",
+        price: "675 AED",
+        URL: "/pkg-auh.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Full Day RAK",
+        price: "675 AED",
+        URL: "/pkg-rak.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+    
+    {
+        title: "Full Day Fujairah",
+        price: "700 AED",
+        URL: "/pkg-alfuj.jpg",
+        des: "Embark on an unforgatable advanture with our all-inclusive tour and travel packages, offering immersive experience and arrangments",
+        duration: "10-12 Hrs"
+    },
+
+]

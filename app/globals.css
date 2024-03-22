@@ -108,6 +108,10 @@ body{
         @apply text-[14px] font-[400];
     }
 
+    .medium-20{
+        @apply text-[20px] font-[600];
+    }
+
     .medium-18{
         @apply text-[18px] font-[600];
     }
