@@ -24,7 +24,7 @@ module.exports = {
         },        
       },
       backgroundImage: {
-        hero: "url('/hero.jpg')",
+        hero: "url('/hero1.jpg')",
         video: "url('/video7.jpg')"
       },
       screens: {

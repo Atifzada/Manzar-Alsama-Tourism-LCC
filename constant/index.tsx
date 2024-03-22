@@ -108,7 +108,7 @@ export const VEHICLES = [
         icon: '/checkbox.svg',
     },
     {
-        title: 'Sports Utility Vehicle',
+        title: 'Sports Utility Vehicles (SUV)',
         icon: '/checkbox.svg',
     },
     {

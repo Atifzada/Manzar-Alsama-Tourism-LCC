@@ -7,7 +7,7 @@ const About = () => {
     <section className='max-container padding-container py-24'>
       <div className='flex flex-col gap-8 lg:flex-row pb-24'>
         {/* LEFT */}
-        <div className='flex flex-1 flex-col items-start justify-center'>
+        <div className='flex flex-1 flex-col items-start justify-center lg:order-1'>
           <h1 className='bold-52 capitalize pb-4'>Join Us In Exploring The United Arab Emirates</h1>
           <p className='text-gray-500'>Manzar Alsamaa tourism company is a business that specializes in
             providing travel and tourism-related services to individuals, groups,
@@ -29,7 +29,7 @@ const About = () => {
           </div>
         </div>
         {/* RIGHT */}
-        <div className='flex flex-1 gap-4 lg:gap-8'>
+        <div className='flex flex-1 gap-4 lg:gap-8 lg:order-2'>
           <div>
             <Image
               src='/abouta1.jpg'
@@ -54,30 +54,8 @@ const About = () => {
       {/* Second container */}
 
       <div className='flex flex-col gap-8 lg:flex-row pb-24'>
-        
-        {/* RIGHT */}
-        <div className='flex flex-1 gap-4 lg:gap-8'>
-          <div>
-            <Image
-              src='/suv1.jpg'
-              alt='about'
-              height={444}
-              width={333}
-              className='w-auto rounded-lg border border-gray-100 mb-12'
-            />
-          </div>
-          <div>
-            <Image
-              src='/suv2.jpg'
-              alt='about'
-              height={444}
-              width={333}
-              className='w-auto rounded-lg border border-gray-100 mb-12'
-            />
-          </div>
-        </div>
         {/* LEFT */}
-        <div className='flex flex-1 flex-col items-start justify-center'>
+        <div className='flex flex-1 flex-col items-start justify-center lg:order-2'>
           <h1 className='bold-52 capitalize pb-4'>Explore Our Fleet</h1>
           <p className='text-gray-500'>With more than 6, new model HIGH ROOF’s 15 seater cars
             MANZAR AL SAMAA have a Significant role in Tourism
@@ -101,9 +79,28 @@ const About = () => {
             )}
           </div>
         </div>
+        {/* RIGHT */}
+        <div className='flex flex-1 gap-4 lg:gap-8 lg:order-1'>
+          <div>
+            <Image
+              src='/suv1.jpg'
+              alt='about'
+              height={444}
+              width={333}
+              className='w-auto rounded-lg border border-gray-100 mb-12'
+            />
+          </div>
+          <div>
+            <Image
+              src='/suv2.jpg'
+              alt='about'
+              height={444}
+              width={333}
+              className='w-auto rounded-lg border border-gray-100 mb-12'
+            />
+          </div>
+        </div>
       </div>
-
-
     </section>
   )
 }
